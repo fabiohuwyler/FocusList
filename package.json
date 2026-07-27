@@ -1,0 +1,43 @@
+{
+    "author": "Fabio Huwyler",
+    "dependencies": {},
+    "keywords": [
+        "pebble-app",
+        "tasks",
+        "productivity"
+    ],
+    "name": "focuslist",
+    "pebble": {
+        "displayName": "FocusList",
+        "enableMultiJS": false,
+        "messageKeys": [
+            "REQUEST_TASK",
+            "MESSAGE_TYPE",
+            "TASK_INDEX",
+            "TASK_COUNT",
+            "TASK_ID",
+            "TASK_TITLE",
+            "TASK_LIST",
+            "TASK_DUE",
+            "TASK_NOTES",
+            "TASK_COMPLETED",
+            "TASK_OVERDUE",
+            "SYNC_STATUS",
+            "COMPLETE_TASK_ID"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "emery",
+            "gabbro"
+        ],
+        "uuid": "106cc64d-3036-4e34-a64d-fd269bdf0971",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "2.0.0"
+}
