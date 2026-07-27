@@ -174,7 +174,7 @@ Window *detail_view_get_window(void) {
 
 void detail_view_update(int task_index) {
   s_current_detail_index = task_index;
-  if (s_details_window) {
+  if (s_details_title_layer) {
     update_detail_layers(task_index);
   }
 }
